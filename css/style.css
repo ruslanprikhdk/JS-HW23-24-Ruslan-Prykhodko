@@ -1,0 +1,50 @@
+
+h1 {
+  text-align: center;
+  margin: 40px 0% 20px 0%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 5px 43%;
+}
+
+ul li {
+  padding: 3px 0%;
+}
+
+input[type = "text"] {
+  display: inline-block;
+  margin: 8px 4% 8px 2%;
+}
+
+form {
+  display: inline-block;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.list {
+  font-style: italic;
+}
+
+.list:hover {
+  cursor: pointer;
+}
+
+.item-delete {
+  color: red;
+}
+
+.item-delete:hover {
+  cursor: move;
+}

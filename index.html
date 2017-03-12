@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW 23-24</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/template.js"></script>
+    <script data-main="js/script.js" src="js/require.js"></script>
+</head>
+
+
+<body>
+
+    <script type="text/template" id="wrapper-template">
+      <h1>Comprehensive To do list</h1>
+      <div class="wrapper">
+        <ul class="item-list">
+        </ul>
+        <div class="controlls">
+          <form>
+              <input type="text" class="item-value">
+          </form>
+          <button class="item-add">Add</button>
+        </div>
+      </div>
+
+    </script>
+
+    <script type="text-template" id="list-template">
+      <% for (var i = 0; i < data.length; i++) { %>
+        <li> <span class="list"><%= data[i] %> </span> <span data-value="<%= data[i] %>" class="item-delete">x</span></li>
+      <% }; %>
+    </script>
+
+
+
+</body>
+
+</html>
